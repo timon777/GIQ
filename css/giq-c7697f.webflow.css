@@ -1304,7 +1304,12 @@ p {
 
 .arrow_first_slide {
   width: 40px;
+  height: 40px;
   margin-top: 0px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fff;
+  border-radius: 50%;
 }
 
 .link-block {
@@ -2198,7 +2203,7 @@ p {
   }
 
   .background-video {
-    padding-bottom: 0px;
+    padding-bottom: 21px;
   }
 
   .div-block-11 {
