@@ -154,6 +154,10 @@ p {
   transform: scale(1.05);
 }
 
+.button.footer_btn.registration {
+  margin-left: 30px;
+}
+
 .lang_container {
   position: relative;
   display: -webkit-box;
@@ -216,6 +220,11 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -761,7 +770,7 @@ p {
   align-items: flex-start;
 }
 
-.div-block-7 {
+.single-post {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -778,20 +787,20 @@ p {
   transition: all 200ms ease;
 }
 
-.div-block-7:hover {
+.single-post:hover {
   box-shadow: 0 0 20px 5px rgba(82, 0, 255, 0.35);
   -webkit-transform: scale(1.02);
   -ms-transform: scale(1.02);
   transform: scale(1.02);
 }
 
-.div-block-8 {
+.single-post__content {
   padding: 20px;
   background-color: #fff;
   color: #000;
 }
 
-.link {
+.single-post__link {
   display: block;
   margin-top: 20px;
   color: #000;
@@ -800,7 +809,7 @@ p {
   cursor: pointer;
 }
 
-.heading-7 {
+.single-post__title {
   margin-top: 0px;
   margin-bottom: 10px;
   font-family: 'Proxima Nova Bold', sans-serif;
@@ -1323,6 +1332,13 @@ p {
   margin-top: 35px;
 }
 
+.single-post__img {
+  width: 100%;
+  height: 217px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1180px;
@@ -1448,6 +1464,12 @@ p {
 
   .button.footer_btn {
     margin-right: 0px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .button.footer_btn.registration {
+    margin-left: 8px;
   }
 
   .button.about_button {
@@ -1582,7 +1604,9 @@ p {
   }
 
   .footer_link {
-    margin-right: 15px;
+    margin-right: 8px;
+    font-size: 14px;
+    white-space: nowrap;
   }
 
   .paragraph-5.about_p {
@@ -1701,6 +1725,10 @@ p {
 @media screen and (max-width: 767px) {
   .button.footer_btn {
     margin-top: 20px;
+  }
+
+  .button.footer_btn.registration {
+    margin-left: 0px;
   }
 
   .button.about_button {
@@ -2147,7 +2175,7 @@ p {
     padding-bottom: 75px;
   }
 
-  .div-block-7 {
+  .single-post {
     margin-right: auto;
     margin-left: auto;
   }
