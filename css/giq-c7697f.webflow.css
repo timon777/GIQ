@@ -215,7 +215,8 @@ p {
   text-transform: uppercase;
 }
 
-.brand.w--current {
+.brand.w--current,
+.brand {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1901,7 +1902,8 @@ p {
     margin-left: 0px;
   }
 
-  .brand.w--current {
+  .brand.w--current.
+  .brand {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
